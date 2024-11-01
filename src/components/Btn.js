@@ -17,7 +17,7 @@ function Btn({children, setCalcul, calcul, val, isOperator = false}){
         }
     }
     return(
-        <button onClick={handleClick} class="button" >{children}</button>
+        <button onClick={handleClick} className="button" >{children}</button>
     )
 }
 
